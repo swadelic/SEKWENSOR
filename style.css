@@ -1,0 +1,44 @@
+* {
+	margin: auto;
+}
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+#scope{
+
+}
+
+#synsek{
+	margin: 5px auto 2.5px auto;
+}
+
+#drumsek{
+	margin: 2.5px auto 5px auto;
+}
+
+#container{
+	width: 300px;
+	margin: auto;
+}
+#play{
+	float: left;
+}
+#pause{
+	float: right;
+}
+
+/*Loads font and names them*/
+@font-face {	font-family: x1;
+				src: url(x1.ttf);
+}
+@font-face {	font-family: x2;
+				src: url(x2.ttf);
+}
